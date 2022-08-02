@@ -27,7 +27,7 @@ Here is a screenshot result of the challenge.
 
 ### Links
 
-- Solution URL: [Product Preview Card](https://https://carolamorim.github.io/productpreviewcard/)
+- Solution URL: [Product Preview Card](https://carolamorim.github.io/productpreviewcard/)
 
 ### Built with
 
