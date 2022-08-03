@@ -50,11 +50,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 900px;
+  min-height: 100vh;
 }
 
 .card {
@@ -62,6 +58,7 @@ body {
   border-radius: 10px;
   background: var(--n3);
   max-width: 700px;
+  margin: 1rem;
 }
 
 .card-img {
@@ -151,9 +148,6 @@ body {
 }
 
 @media (max-width: 600px) {
-  .container {
-    margin: 20px auto;
-  }
   .card-info {
     padding: 20px;
   }
@@ -178,5 +172,12 @@ body {
   .card-info > span {
     font-weight: initial;
     letter-spacing: 0.2rem;
+  }
+}
+
+@media (max-width: 280px) {
+  .card-price {
+    display: flex;
+    flex-direction: column;
   }
 }
