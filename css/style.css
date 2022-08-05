@@ -94,7 +94,7 @@ body {
   display: inline-block;
 }
 
-.card-info p {
+.card-info > p {
   color: var(--n2);
   line-height: 1.5;
   margin-bottom: var(--space);
@@ -122,7 +122,9 @@ body {
 
 .card-button {
   padding: 15px 0;
+  width: 100%;
   background: var(--p1);
+  border: none;
   border-radius: 10px;
   gap: 10px;
 
@@ -134,7 +136,7 @@ body {
   background: var(--p3);
 }
 
-.card-button a {
+.card-button p {
   text-align: center;
   color: var(--p2);
   font-weight: bold;
